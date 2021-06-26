@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -31,8 +32,10 @@ namespace Betriebsmittelverwaltung
                     options.UseSqlServer(
                         Configuration.GetConnectionString("BetriebsmittelverwaltungContextConnection")));
 
-            services.AddDefaultIdentity<Admin>()
-                .AddEntityFrameworkStores<BetriebsmittelverwaltungContext>();
+            services.AddIdentity<AppUser, IdentityRole>()
+                .AddEntityFrameworkStores<BetriebsmittelverwaltungContext>()
+                .AddDefaultUI()
+                .AddDefaultTokenProviders();
 
             services.Configure<CookiePolicyOptions>(options =>
             {
@@ -46,7 +49,7 @@ namespace Betriebsmittelverwaltung
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, UserManager<AppUser> um, RoleManager<IdentityRole> rm)
         {
             if (env.IsDevelopment())
             {
@@ -70,6 +73,51 @@ namespace Betriebsmittelverwaltung
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            CreateUsersRoles(um, rm).Wait();
+
+        }
+
+        private async Task CreateUsersRoles(UserManager<AppUser> um, RoleManager<IdentityRole> rm)
+        {
+            AppUser user = await um.FindByNameAsync("admin@admin.de");
+            if (user == null)
+            {
+                user = new AppUser() { Email = "admin@admin.de", UserName = "admin@admin.de" };
+                await um.CreateAsync(user, "_Admin123");
+            }
+
+            IdentityRole role = await rm.FindByNameAsync("Administrator");
+
+            if (role == null)
+            {
+                role = new IdentityRole("Administrator");
+                await rm.CreateAsync(role);
+            }
+
+            IdentityRole roleTwo = await rm.FindByNameAsync("Bauleiter");
+
+            if (roleTwo == null)
+            {
+                role = new IdentityRole("Bauleiter");
+                await rm.CreateAsync(role);
+            }
+
+            IdentityRole roleThree = await rm.FindByNameAsync("Lagerist");
+
+            if (roleThree == null)
+            {
+                role = new IdentityRole("Lagerist");
+                await rm.CreateAsync(role);
+            }
+
+            bool inrole = await um.IsInRoleAsync(user, "Administrator");
+            if (!inrole)
+            {
+                await um.AddToRoleAsync(user, "Administrator");
+            }
+
+            return;
         }
     }
 }
