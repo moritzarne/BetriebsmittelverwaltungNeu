@@ -1,5 +1,6 @@
 ﻿using Betriebsmittelverwaltung.Areas.Identity.Data;
 using Betriebsmittelverwaltung.Data;
+using Betriebsmittelverwaltung.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -44,8 +45,11 @@ namespace Betriebsmittelverwaltung
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<MyContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MyDb")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
