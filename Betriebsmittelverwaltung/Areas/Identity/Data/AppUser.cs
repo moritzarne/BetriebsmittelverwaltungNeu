@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 namespace Betriebsmittelverwaltung.Areas.Identity.Data
 {
     // Add profile data for application users by adding properties to the Admin class
-    public class Admin : IdentityUser
+    public class AppUser : IdentityUser
     {
     }
 }

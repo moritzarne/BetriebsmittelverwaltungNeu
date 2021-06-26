@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Betriebsmittelverwaltung.Data
 {
-    public class BetriebsmittelverwaltungContext : IdentityDbContext<Admin>
+    public class BetriebsmittelverwaltungContext : IdentityDbContext<AppUser>
     {
         public BetriebsmittelverwaltungContext(DbContextOptions<BetriebsmittelverwaltungContext> options)
             : base(options)
