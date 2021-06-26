@@ -41,3 +41,13 @@ C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittel
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Baustellenverwaltungs\Create.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Baustellenverwaltungs\Delete.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Baustellenverwaltungs\Details.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Baustellenverwaltungs\Edit.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Baustellenverwaltungs\Index.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Bestandsverwaltungs\Create.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Bestandsverwaltungs\Delete.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Bestandsverwaltungs\Details.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Bestandsverwaltungs\Edit.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Bestandsverwaltungs\Index.cshtml.g.cs
