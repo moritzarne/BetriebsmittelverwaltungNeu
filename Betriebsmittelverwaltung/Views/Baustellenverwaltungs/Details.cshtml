@@ -12,6 +12,12 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd id="id">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
             @Html.DisplayNameFor(model => model.kurzname)
         </dt>
         <dd>
@@ -27,5 +33,8 @@
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-controller="Auftragsverwaltungs" asp-action="Create">Betriebsmittel bestellen</a> |
+    <a asp-controller="Retourenverwaltungs" asp-action="Create">Betriebsmittel zurückgeben</a> |
     <a asp-action="Index">Back to List</a>
+
 </div>

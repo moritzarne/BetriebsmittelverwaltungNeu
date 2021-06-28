@@ -16,10 +16,7 @@ C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittel
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Betriebsmittelverwaltung.TagHelpers.input.cache
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Betriebsmittelverwaltung.TagHelpers.output.cache
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Betriebsmittelverwaltung.RazorCoreGenerate.cache
-C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
-C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -51,3 +48,13 @@ C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittel
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Bestandsverwaltungs\Details.cshtml.g.cs
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Bestandsverwaltungs\Edit.cshtml.g.cs
 C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Bestandsverwaltungs\Index.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Auftragsverwaltungs\Create.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Auftragsverwaltungs\Delete.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Auftragsverwaltungs\Details.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Auftragsverwaltungs\Edit.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Auftragsverwaltungs\Index.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Retourenverwaltungs\Create.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Retourenverwaltungs\Delete.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Retourenverwaltungs\Details.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Retourenverwaltungs\Edit.cshtml.g.cs
+C:\Users\Moritz Wübbena\Source\Repos\BetriebsmittelverwaltungNeu\Betriebsmittelverwaltung\obj\Debug\netcoreapp2.1\Razor\Views\Retourenverwaltungs\Index.cshtml.g.cs

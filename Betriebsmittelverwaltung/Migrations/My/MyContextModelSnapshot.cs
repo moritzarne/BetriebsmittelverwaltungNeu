@@ -19,6 +19,21 @@ namespace Betriebsmittelverwaltung.Migrations.My
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Betriebsmittelverwaltung.Models.Auftragsverwaltung", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BaustellenID");
+
+                    b.Property<int>("Typ");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Auftragsverwaltung");
+                });
+
             modelBuilder.Entity("Betriebsmittelverwaltung.Models.Baustellenverwaltung", b =>
                 {
                     b.Property<int>("Id")
@@ -49,6 +64,23 @@ namespace Betriebsmittelverwaltung.Migrations.My
                     b.HasKey("Id");
 
                     b.ToTable("Bestandsverwaltung");
+                });
+
+            modelBuilder.Entity("Betriebsmittelverwaltung.Models.Retourenverwaltung", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BaustellenID");
+
+                    b.Property<int>("Typ");
+
+                    b.Property<int>("TypId");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Retourenverwaltung");
                 });
 #pragma warning restore 612, 618
         }
