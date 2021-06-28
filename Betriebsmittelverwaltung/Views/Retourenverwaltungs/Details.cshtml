@@ -1,0 +1,37 @@
+﻿@model Betriebsmittelverwaltung.Models.Retourenverwaltung
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Retourenverwaltung</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Typ)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Typ)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BaustellenID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BaustellenID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TypId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TypId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -33,6 +33,8 @@ namespace Betriebsmittelverwaltung
                 return NotFound();
             }
 
+            var baustellenID = id;
+
             var baustellenverwaltung = await _context.Baustellenverwaltung
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (baustellenverwaltung == null)
